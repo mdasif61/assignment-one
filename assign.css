@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
 header{
     width:100%;
     height: 950px;
@@ -16,16 +20,17 @@ header{
     text-align: right;
 }
 .banner-heading{
-    font-family: 'Work Sans', sans-serif;
     font-size: 70px;
     line-height: 75px;
+}
+.possible{
+    color:yellow;
 }
 .banner-desc{
     font-size: 20px;
     width:30%;
     line-height:30px;
     margin-top:-23px;
-    font-family: 'Work Sans', sans-serif;
 }
 .btn{
     border:none;
@@ -37,5 +42,167 @@ header{
     font-size: 20px;
     border-radius: 5px;
     border:2px solid white;
-    font-family: 'Work Sans', sans-serif;
+}
+
+#info-sec{
+    margin:100px 100px;
+    width:100%;
+    display: flex;
+}
+.man{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+    width:50%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width:50%;
+    margin-left: 30px;
+}
+.info-heading{
+    font-size: 50px;
+}
+.info-desc{
+    width:50%;
+    line-height: 25px;
+    color:rgb(117, 117, 117);
+    margin-top:-12px;
+    font-size:18px ;
+}
+ul{
+    margin-left: -15px;
+    line-height: 33px;
+    list-style-image: url('./images/icons/tick.png');
+    font-size: 18px;
+}
+#all-program{
+    margin-top:150px;
+}
+.my-plans{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 65px;
+}
+#program-item-sec{
+    display: flex;
+    width:60%;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.program-item{
+    text-align: center;
+}
+.program-heading{
+    font-size: 30px;
+    margin-bottom:10px;
+}
+.program-info{
+    color:rgb(105, 105, 105);
+    font-weight: bold;
+    font-size: 18px;
+    margin-top:1px;
+}
+#add-view{
+    width:60%;
+    height: 280px;
+    background-color: bisque;
+    margin:150px auto;
+    background-image:linear-gradient(to right,rgb(10, 124, 0),transparent), url('./images/watch.png');
+    padding: 50px;
+    color:white;
+    border-radius: 10px;
+}
+.add-view-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    height: 100%;
+}
+.add-heading{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top:0px;
+}
+.add-btn{
+    border:none;
+    outline: none;
+    width:185px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top:-20px;
+    background-color: rgb(210, 253, 167);
+    color:rgb(54, 107, 0);
+}
+.footer{
+    display: flex;
+    background-color: rgb(17, 17, 17);
+    color:white;
+    padding:100px 200px;
+    align-items: flex-start;
+}
+.future{
+    width:50%;
+}
+.subscribe{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.foot-heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+.foot-info{
+    font-size: 18px;
+    color:rgb(163, 163, 163);
+    width:95%;
+    line-height: 28px;
+}
+.email{
+    line-height: 32px;
+    font-size: 20px;
+}
+.others-contact{
+    margin:10px;
+    margin-left: 0px;
+}
+.subs{
+    font-weight: bold;
+    font-size: 35px;
+}
+#search{
+    width:350px;
+    height: 75px;
+    border:none;
+    outline: none;
+    border:2px solid red;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 25px;
+    color:white;
+}
+.subscribe{
+    display: flex;
+    margin-left: 500px;
+}
+.subs-btn{
+    border:none;
+    outline: none;
+    background:linear-gradient(to right, brown,red);
+    width:200px;
+    height: 70px;
+    font-size: 25px;
+    color:white;
+    border-radius: 5px 50px 50px 5px;
+    padding: 10px;
+    margin-top:30px;
 }
